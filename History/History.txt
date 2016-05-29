@@ -1,0 +1,25 @@
+  393  source monitoreored.sh 
+  394  vim monitoreored.sh 
+  395  source monitoreored.sh 
+  396  vim monitoreored.sh 
+  397  source monitoreored.sh 
+  398  vim monitoreored.sh 
+  399  source monitoreored.sh 
+  400  vim monitoreored.sh 
+  401  source monitoreored.sh 
+  402  vim monitoreored.sh 
+  403  source monitoreored.sh 
+  404  vim monitoreored.sh 
+  405  source monitoreored.sh 
+  406  cd ..
+  407  ls -l
+  408  cat README 
+  409  cd History/
+  410  ls -l
+  411  rm -r LX2_emmanuel/
+  412  ls -l
+  413  cd ..
+  414  history >> History
+  415  history | tail -25 >> History
+  416  rm -r History/
+  417  history | tail -25 >> History.txt
