@@ -1,0 +1,50 @@
+  628  ls -l
+  629  cd LX2_walter/
+  630  ls -l
+  631  git add scriptclase
+  632  git commit -m "ejemplos estudiados en la clase del sabado 4 de junio"
+  633  git push origin master
+  634  ls -l
+  635  cd
+  636  ls -l
+  637  tree
+  638  cd
+  639  exit
+  640  ls -l
+  641  tree
+  642  ~cd
+  643  cd
+  644  ls -l
+  645  exit
+  646  ls -l
+  647  cd
+  648  ls -l
+  649  mv /home/walter/Documents/scriptclase /home
+  650  ls -l
+  651  cd /home/
+  652  ls -l
+  653  cd
+  654  ls -l
+  655  ls -la
+  656  cd /home
+  657  ls -l
+  658  cd
+  659  ls -l
+  660  cd LX2_1p_walter/
+  661  cd
+  662  cd /home/
+  663  ls -l
+  664  mv scriptclase ./
+  665  cd
+  666  ls -l
+  667  cd LX2_1p_walter/
+  668  mv /home/scriptclase ~/LX2_1p_walter
+  669  ls -l
+  670  git add scriptclase 
+  671  git commit -m "ejemplos de scripts, clase 4 junio"
+  672  git push origin master
+  673  ls -l
+  674  cd History/
+  675  ls -l
+  676  History | tail -50 >> Hist4junio.txt 
+  677  history | tail -50 >> Hist4junio.txt 
