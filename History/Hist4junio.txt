@@ -48,3 +48,103 @@
   675  ls -l
   676  History | tail -50 >> Hist4junio.txt 
   677  history | tail -50 >> Hist4junio.txt 
+  583  vim bills01_2012primer.csv 
+  584  cat bills01_2012primer.csv 
+  585  xls
+  586  cd
+  587  exit
+  588  ls -l
+  589  cd Documents/
+  590  ls -l
+  591  cd LX2_walter/
+  592  ls -l
+  593  exit
+  594  pt-get purge virtualbox*
+  595  apt-get purge virtualbox*
+  596  apt-get remove virtualbox-\*
+  597  ls -l
+  598  cd Downloads/
+  599  ls -l
+  600  cd
+  601  exit
+  602  ls -l
+  603  cd Documents/
+  604  ls -l
+  605  mkdir scriptclase
+  606  cd scriptclase/
+  607  touch ejemplo1.sh
+  608  vim ejemplo1.sh 
+  609  touch archivo1.txt
+  610  chmod +x ejemplo1.sh 
+  611  ./ejemplo1.sh 
+  612  ls 
+  613  cat if-then.sh.err
+  614  touch ejemplo2.sh
+  615  vim ejemplo2.sh 
+  616  chmod +x ejemplo2.sh 
+  617  ./ejemplo2.sh 
+  618  ls -l
+  619  touch ejemplopag10.sh
+  620  vim ejemplopag10.sh 
+  621  chmod ejemplopag10.sh 
+  622  chmod +x ejemplopag10.sh 
+  623  ./ejemplopag10.sh 
+  624  ls -l
+  625  cd ..
+  626  ls -l
+  627  mv scriptclase LX2_walter/
+  628  ls -l
+  629  cd LX2_walter/
+  630  ls -l
+  631  git add scriptclase
+  632  git commit -m "ejemplos estudiados en la clase del sabado 4 de junio"
+  633  git push origin master
+  634  ls -l
+  635  cd
+  636  ls -l
+  637  tree
+  638  cd
+  639  exit
+  640  ls -l
+  641  tree
+  642  ~cd
+  643  cd
+  644  ls -l
+  645  exit
+  646  ls -l
+  647  cd
+  648  ls -l
+  649  mv /home/walter/Documents/scriptclase /home
+  650  ls -l
+  651  cd /home/
+  652  ls -l
+  653  cd
+  654  ls -l
+  655  ls -la
+  656  cd /home
+  657  ls -l
+  658  cd
+  659  ls -l
+  660  cd LX2_1p_walter/
+  661  cd
+  662  cd /home/
+  663  ls -l
+  664  mv scriptclase ./
+  665  cd
+  666  ls -l
+  667  cd LX2_1p_walter/
+  668  mv /home/scriptclase ~/LX2_1p_walter
+  669  ls -l
+  670  git add scriptclase 
+  671  git commit -m "ejemplos de scripts, clase 4 junio"
+  672  git push origin master
+  673  ls -l
+  674  cd History/
+  675  ls -l
+  676  History | tail -50 >> Hist4junio.txt 
+  677  history | tail -50 >> Hist4junio.txt 
+  678  ls -l
+  679  git add Hist4junio.txt 
+  680  git commit -m "history de los ejemplos de scripts realizados el sabado 4 de junio"
+  681  git push origin master
+  682  history | tail -100 >> Hist4junio.txt 
