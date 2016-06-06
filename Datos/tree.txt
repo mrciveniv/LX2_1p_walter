@@ -1,0 +1,25 @@
+.
+├── Datos
+│   ├── History
+│   │   ├── Hist4junio.txt
+│   │   └── History.txt
+│   ├── script
+│   │   └── monitoreored.sh
+│   ├── scriptclase
+│   │   ├── archivo.1txt.bck
+│   │   ├── archivo1.txt.bck
+│   │   ├── ejemplo1.sh
+│   │   ├── ejemplo1.sh.err
+│   │   ├── ejemplo2.sh
+│   │   ├── ejemplo2.sh.err
+│   │   ├── ejemplopag10.sh
+│   │   └── ejemplopag10.sh.err
+│   └── xls2csv
+├── error1.log
+├── hojasDatos
+│   └── archivos_csv
+├── problema1.sh
+├── README
+└── tree.txt
+
+8 directories, 14 files
