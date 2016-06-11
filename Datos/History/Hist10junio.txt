@@ -1,0 +1,1016 @@
+    1  gedit /etc/apt/sources.list.d/vbox.list
+    2  apt-get install gedit
+    3  apt-get install vim
+    4  apt-get tree
+    5  apt-get install tree
+    6  gedit /etc/apt/sources.list.d/vbox.list
+    7  apt-get update && sudo apt-get -y upgrade
+    8  apt-get remove virtualbox*
+    9  apt-get install virtualbox-4.3
+   10  apt-get install dkms
+   11  apt-get install virtualbox-4.3
+   12  apt-get remove virtualbox*
+   13  locate virtualbox
+   14  apt-get install virtualbox-4.3
+   15  apt-get update && sudo apt-get -y upgrade
+   16  sudo apt-get remove virtualbox*
+   17  apt-get install virtualbox-4.3
+   18  Oracle VM VirtualBox
+   19  apt-get lintian
+   20  apt-get install lintian
+   21  apt-get install virtualbox-4.3
+   22  sudo apt-get remove virtualbox*
+   23  apt-get install dkms
+   24  wget -q http://download.virtualbox.org/virtua... -O- | sudo apt-key add -
+   25  sudo apt-get update
+   26  gpg --keyserver http://www.freedesktop.org/software/gstreamer-sdk/sdk.gpg --recv-keys 1397BC53640DB551
+   27  gpg --export --armor 1900C4BE|sudo apt-key add -
+   28  apt-get remove dkms
+   29  apt-get update
+   30  exit
+   31  apt-get install apache2 -y
+   32  apt-get php5 libapache2-mod-php5 -y
+   33  apt-get install php5 libapache2-mod-php5 -y
+   34  apt-get install php5 libapache2-mod-php5.6 -y
+   35  apt-get install php5 libapache2-mod-php7 -y
+   36  apt-get install php7 libapache2-mod-php7 -y
+   37  apt-get php5.6
+   38  apt-get install php5.6
+   39  apt-get install php5.6 libapache2-mod-php5.6 -y
+   40  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+   41  sudo apt-get install php5.6 libapache2-mod-php5.6 php5.6-mcrypt
+   42  mkdir practicando
+   43  cd practicando/
+   44  touch explicacion.txt
+   45  vim explicacion.txt 
+   46  ls -l
+   47  git init
+   48  apt-get install git
+   49  git init
+   50  ls -l
+   51  git add explicacion.txt 
+   52  git commit -m 'primera subida'
+   53  git config --global user.name "mrciveniv"
+   54  git config --global user.email "w79cr@yahoo.com"
+   55  git commit -m 'primera subida'
+   56  git remote add origin http://github.com/mrciveniv/practicando
+   57  mkdir historialprueba
+   58  cd historialprueba/
+   59  git init
+   60  touch historialprof
+   61  git commit -m 'segunda subida'
+   62  git add historialprof 
+   63  git commit -m 'segunda subida'
+   64  ls
+   65  cd ..
+   66  ls -l
+   67  git push -u origin master
+   68  ls -l
+   69  rm -R historialprueba/
+   70  ls -l
+   71  git push -u origin master
+   72  git remote add origin http://github.com/mrciveniv/practicando
+   73  git push -u origin master
+   74  ls -l
+   75  git init
+   76  git add explicacion.txt 
+   77  git commit -m "primera subida del proyecto"
+   78  git commit -m " subida del proyecto"
+   79  git remote add origin http://github.com/mrciveniv/explicacion.txt
+   80  git push -u origin master
+   81  git init
+   82  touch otro.txt
+   83  git add .
+   84  git commit -m "otra subida"
+   85  git push -u origin master
+   86  git pull
+   87  cd
+   88  ls
+   89  rm -r practicando/
+   90  ls
+   91  sudo apt-get install git
+   92  git config --global user.name "mrciveniv"
+   93  git config --global user.email "w79cr@yahoo.com"
+   94  mkdir otro
+   95  cd otro/
+   96  git init
+   97  clear
+   98  git remote add origin http://github.com/mrciveniv/otro.git
+   99  ls -l
+  100  touch shiit.txt
+  101  ls -l
+  102  git init
+  103  add shiit.txt 
+  104  git add shiit.txt 
+  105  git commit -m 'subida 1'
+  106  git remote add origin http://github.com/mrciveniv/otro.git
+  107  git push -u origin master
+  108  cd
+  109  ls -l
+  110  rm -r otro
+  111  ls -l
+  112  clear
+  113  mkdir otro2
+  114  cd otro2/
+  115  touch prueba.md
+  116  vim prueba.md 
+  117  ls -l
+  118  git init
+  119  git add prueba.md 
+  120  git commit -m 'primera subida'
+  121  git remote add origin git@github.com:mrciveniv/otro2.git
+  122  git push -u origin master
+  123  git config --global user.name "mrciveniv"
+  124  git config --global user.email "w79cr@yahoo.com"
+  125  git push -u origin master
+  126  git remote add origin https://github.com/mrciveniv/otro2.git
+  127  git push -u origin master
+  128  cd
+  129  rm -r otro
+  130  rm -r otro2
+  131  ls -l
+  132  mkdir pruebasgit
+  133  cd pruebasgit/
+  134  git config --global user.name "mrciveniv"
+  135  git config --global user.email "w79cr@yahoo.com"
+  136  cd 
+  137  mv pruebasgit test10
+  138  ls -l
+  139  cd test10/
+  140  git init
+  141  git remote add origin https://github.com/mrciveniv/test10.git
+  142  touch README
+  143  git add README
+  144  git commit -m 'first commit'
+  145  git push origin master
+  146  vim README 
+  147  git add .
+  148  git commit -m 'segundo commit'
+  149  git push origin master
+  150  mkdir history
+  151  history >> history.txt
+  152  vim history.txt
+  153  vim README 
+  154  git add .
+  155  git commit -m 'second commit'
+  156  git push origin master
+  157  vim README 
+  158  mkdir seg.txt
+  159  ls -l
+  160  vim seg.txt/
+  161  rm -r seg.txt/
+  162  mkdir nono
+  163  cd nono/
+  164  touch masinfo
+  165  vim masinfo 
+  166  cd ..
+  167  git add .
+  168  git commit -m 'mil commit'
+  169  git push origin master
+  170  ls -l
+  171  mv history.txt history
+  172  ls -l
+  173  git add .
+  174  git commit -m '2000 commit'
+  175  git push origin master
+  176  cd
+  177  mkdir LX2_walter
+  178  cd LX2_walter/
+  179  git config --global user.name "mrciveniv"
+  180  git config --global user.email "w79cr@yahoo.com"
+  181  git init
+  182  git remote add origin https://github.com/mrciveniv/LX2_walter
+  183  touch README
+  184  vim README 
+  185  git add README 
+  186  git commit -m 'Primera entrada de info'
+  187  git push origin master
+  188  mkdir history
+  189  cd history/
+  190  history_prof
+  191  mkdir history_prof
+  192  cd history_prof/
+  193  git clone https://github.com/emvarg/LX2_emmanuel/tree/master/history
+  194  git clone https://github.com/emvarg/LX2_emmanuel.git
+  195  ls -l
+  196  cd LX2_emmanuel/
+  197  ls -l
+  198  cd
+  199  cd LX2_walter/
+  200  git add .
+  201  git commit -m 'informacion incluye el repositorio de Emmanuel de prueba del día sabado 21 mayo'
+  202  git push origin master
+  203  ls -l
+  204  cd history
+  205  ls -l
+  206  cd history_prof/
+  207  ls -l
+  208  cat LX2_emmanuel/
+  209  cd LX2_emmanuel/
+  210  ls -l
+  211  vim error
+  212  cat history/
+  213  cd history/
+  214  ls -l
+  215  cat history-lab08-00 
+  216  cat history-lab08-00 cd
+  217  cd
+  218  poweroff
+  219  find / -name vim-tutor
+  220  ls
+  221  apt-get install vim-nox
+  222  ks
+  223  ls
+  224  sudo vim /etc/ssh/sshd_config
+  225  git config --global user.name "mrciveniv"
+  226  git config --global use.email "w79cr@yahoo.com"
+  227  cd Documents/
+  228  ls -l
+  229  mkdir LX2_walter
+  230  cd LX2_walter/
+  231  git init
+  232  git remote add origin 
+  233  https://github.com/mrciveniv/LX.git
+  234  git remote add origin https://github.com/mrciveniv/LX.git
+  235  cd
+  236  cd home/walter/Documents
+  237  ls -l
+  238  cd LX2_walter/
+  239  ls -l
+  240  cd ..
+  241  rm -r LX2_walter/
+  242  ls -l
+  243  mkdir LX2_walter
+  244  cd LX2_walter/
+  245  git config --global user.name "mrciveniv"
+  246  git config --global use.email "w79cr@yahoo.com"
+  247  git init
+  248  git remote add origin https://github.com/mrciveniv/LX2_walter.git
+  249  touch README
+  250  vim README 
+  251  git commit -m "primer commit"
+  252  git add README 
+  253  git add .
+  254  git commit -m 'Primer commit'
+  255  git push origin master
+  256  mkdir History
+  257  git clone https://github.com/emvarg/LX2_emmanuel
+  258  ls -l
+  259  cd LX2_emmanuel/
+  260  ls -l
+  261  cd ..
+  262  mv LX2_emmanuel history
+  263  ls -l
+  264  cd history/
+  265  ls -l
+  266  cd ..
+  267  cd History/
+  268  ls -l
+  269  cd ..
+  270  mv history History/
+  271  ls -l
+  272  cd History/
+  273  ls -l
+  274  mv history LX2_emmanuel
+  275  ls -l
+  276  cd ..
+  277  git add History
+  278  git commit -m 'Segundo commit'
+  279  git push origin master
+  280  ls -l
+  281  git reset --hard HEAD~1
+  282  poweroff
+  283  ls -l
+  284  mv historial\ de\ domicilios.odt Documents/
+  285  ls -l
+  286  mv practica.sh Documents/
+  287  mv repaso.odt Documents/
+  288  ls -l
+  289  mkdir LX2walter
+  290  cd LX2walter/
+  291  ls -l
+  292  cd LX2walter/
+  293  ls -l
+  294  mkdir scripts
+  295  cd scripts/
+  296  mkdir monitoreo
+  297  vim monitoreo/
+  298  rm -r monitoreo/
+  299  touch monitoreo
+  300  vim monitoreo 
+  301  mv monitoreo monitoreo.sh
+  302  chmod +x monitoreo.sh 
+  303  ./monitoreo.sh 
+  304  source monitoreo
+  305  ls -l
+  306  vim monitoreo.sh 
+  307  ./monitoreo.sh 
+  308  source ./monitoreo.sh 
+  309  vim monitoreo.sh 
+  310  cd LX2walter/
+  311  ls -l
+  312  cd scripts/
+  313  ls -l
+  314  vim monitoreo.sh 
+  315  source ./monitoreo.sh 
+  316  cd LX2walter/
+  317  cd scripts/
+  318  ls -l
+  319  vim monitoreo.sh 
+  320  source ./monitoreo.sh 
+  321  cd .
+  322  cd Downloads
+  323  ls -l
+  324  cd LX2_1p_walter/
+  325  ls -l
+  326  cd
+  327  ls -l
+  328  cd home
+  329  pwd
+  330  tree
+  331  exit
+  332  ls -l
+  333  cd LX2_1p_walter/
+  334  mkdir xls2csv
+  335  ls -l
+  336  sudo rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+  337  sudo rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  338  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+  339  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  340  apt-get install rpm
+  341  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rp
+  342  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+  343  release-0.5.2-2.el6.rf.x86_64.rpm
+  344  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+  345  rpm -Uhv http://packages.sw.be/rpmforge-release/release-0.5.2-2.el6.rf.x86_64.rpm
+  346  sudo apt-get install csv
+  347  sudo apt-get install xls2csv
+  348  sudo yum update
+  349  apt-get install catdoc
+  350  ls -l
+  351  tree
+  352  cd ..
+  353  tree
+  354  find / -name bills01_2012.xls
+  355  ls -l
+  356  sudo su
+  357  ls -l
+  358  tree
+  359  exit
+  360  mkdir script
+  361  cd script/
+  362  touch monitoreored
+  363  vim monitoreored 
+  364  source monitoreored 
+  365  chmos +x monitoreored 
+  366  chmod +x monitoreored 
+  367  source monitoreored 
+  368  mv monitoreored monitoreored.sh
+  369  source monitoreored.sh 
+  370  vim monitoreored.sh 
+  371  source monitoreored.sh 
+  372  vim monitoreored.sh 
+  373  source monitoreored.sh 
+  374  vim monitoreored.sh 
+  375  source monitoreored.sh 
+  376  chmod +x monitoreored.sh 
+  377  source monitoreored.sh 
+  378  vim monitoreored.sh 
+  379  source monitoreored.sh 
+  380  vim monitoreored.sh 
+  381  source monitoreored.sh 
+  382  vim monitoreored.sh 
+  383  source monitoreored.sh 
+  384  top
+  385  vim monitoreored.sh 
+  386  source monitoreored.sh 
+  387  vim monitoreored.sh 
+  388  source monitoreored.sh 
+  389  vim monitoreored.sh 
+  390  source monitoreored.sh 
+  391  vim monitoreored.sh 
+  392  source monitoreored.sh 
+  393  vim monitoreored.sh 
+  394  source monitoreored.sh 
+  395  vim monitoreored.sh 
+  396  source monitoreored.sh 
+  397  vim monitoreored.sh 
+  398  source monitoreored.sh 
+  399  vim monitoreored.sh 
+  400  source monitoreored.sh 
+  401  vim monitoreored.sh 
+  402  source monitoreored.sh 
+  403  vim monitoreored.sh 
+  404  source monitoreored.sh 
+  405  vim monitoreored.sh 
+  406  source monitoreored.sh 
+  407  vim monitoreored.sh 
+  408  source monitoreored.sh 
+  409  vim monitoreored.sh 
+  410  source monitoreored.sh 
+  411  vim monitoreored.sh 
+  412  source monitoreored.sh 
+  413  vim monitoreored.sh 
+  414  source monitoreored.sh 
+  415  vim monitoreored.sh 
+  416  source monitoreored.sh 
+  417  vim monitoreored.sh 
+  418  source monitoreored.sh 
+  419  vim monitoreored.sh 
+  420  source monitoreored.sh 
+  421  vim monitoreored.sh 
+  422  source monitoreored.sh 
+  423  vim monitoreored.sh 
+  424  source monitoreored.sh 
+  425  vim monitoreored.sh 
+  426  source monitoreored.sh 
+  427  vim monitoreored.sh 
+  428  source monitoreored.sh 
+  429  vim monitoreored.sh 
+  430  source monitoreored.sh 
+  431  vim monitoreored.sh 
+  432  source monitoreored.sh 
+  433  vim monitoreored.sh 
+  434  source monitoreored.sh 
+  435  vim monitoreored.sh 
+  436  source monitoreored.sh 
+  437  vim monitoreored.sh 
+  438  source monitoreored.sh 
+  439  vim monitoreored.sh 
+  440  source monitoreored.sh 
+  441  vim monitoreored.sh 
+  442  source monitoreored.sh 
+  443  vim monitoreored.sh 
+  444  source monitoreored.sh 
+  445  cd ..
+  446  ls -l
+  447  cat README 
+  448  cd History/
+  449  ls -l
+  450  rm -r LX2_emmanuel/
+  451  ls -l
+  452  cd ..
+  453  history >> History
+  454  history | tail -25 >> History
+  455  rm -r History/
+  456  history | tail -25 >> History.txt
+  457  ls -l
+  458  mkdir History
+  459  mv History.txt History/
+  460  ls -l
+  461  cd History/
+  462  ls -l
+  463  cat History.txt 
+  464  cd ..
+  465  ls -l
+  466  git config --global user.name "mrciveniv"
+  467  git config --global user.email "w79cr@yahoo.com"
+  468  git init
+  469  git remote add origin https://github.com/mrciveniv/LX2_walter.git
+  470  cd ..
+  471  mv LX2_walter LX2_pnivel2_walter
+  472  ls -l
+  473  cd LX2_pnivel2_walter/
+  474  ls -l
+  475  git config --global user.name "mrciveniv"
+  476  git config --global user.email "w79cr@yahoo.com"
+  477  git init
+  478  git remote add origin https://github.com/mrciveniv/LX2_pnivel2_walter.git 
+  479  git add .
+  480  git commit -m "Primer commit"
+  481  git push origin master
+  482  git add README
+  483  git commit -m "Primer commit"
+  484  git push origin master
+  485  cd ..
+  486  mv LX2_pnivel2_walter LX2_1p_walter
+  487  ls -l
+  488  cd LX2_1p_walter/
+  489  ls -l
+  490  git config --global user.name "mrciveniv"
+  491  git config --global user.email "w79cr@yahoo.com"
+  492  git init
+  493  git remote add origin https://github.com/mrciveniv/LX2_1p_walter.git 
+  494  git remote rm origin
+  495  git remote add origin https://github.com/mrciveniv/LX2_1p_walter.git 
+  496  git add .
+  497  git commit -m "Primer commit"
+  498  git push origin master
+  499  cd
+  500  sudo su
+  501  cd Documents/
+  502  cd LX2_walter/
+  503  ls -l
+  504  cd
+  505  ls -l
+  506  cd LX2_walter/
+  507  ls -l
+  508  tree
+  509  sudo su
+  510  cd LX2walter/
+  511  cd scripts/
+  512  vim monitoreo.sh 
+  513  source ./monitoreo.sh 
+  514  cd
+  515  nmap local host
+  516  sudo apt-get install nmap
+  517  nmap loca host
+  518  nmap localhost
+  519  sudo su
+  520  ls -l
+  521  cd LX2walter/
+  522  ls -l
+  523  cd scripts/
+  524  ls -l
+  525  source ./monitoreo.sh 
+  526  ls -l
+  527  vim monitoreo.sh 
+  528  cd
+  529  ls -l
+  530  cd LX2_1p_walter/
+  531  ls -l
+  532  cd script/
+  533  ls -l
+  534  source ./monitoreored.sh 
+  535  cd
+  536  exit
+  537  ls -l
+  538  cd Documents/
+  539  ls -l
+  540  cd LX2_walter/
+  541  ls -l
+  542  cd
+  543  ls -l
+  544  exit
+  545  ls -l
+  546  cd Documents/
+  547  ls -l
+  548  cd LX2_walter/
+  549  ls -l
+  550  cd
+  551  ls -l
+  552  exit
+  553  cd Downloads/
+  554  ls -l
+  555  rm -r virtualbox-5.0_5.0.20-106931-Ubuntu-xenial_i386.deb 
+  556  exit
+  557  ls -l
+  558  cd Documents/
+  559  ls -l
+  560  cd LX2_walter/
+  561  ls -l
+  562  exit
+  563  ls -l
+  564  cd Documents/
+  565  ls -l
+  566  cd LX2_walter/
+  567  ls -l
+  568  cd
+  569  ls -l
+  570  pwd
+  571  ls -l
+  572  exit
+  573  ls -l
+  574  cd Downloads/
+  575  ls -l
+  576  cd problemas_proyecto/
+  577  ls -l
+  578  cd proyectoFinal/
+  579  ls -l
+  580  cd problema2/
+  581  ls -l
+  582  cat bills01_2012primer.csv 
+  583  vim bills01_2012primer.csv 
+  584  cat bills01_2012primer.csv 
+  585  xls
+  586  cd
+  587  exit
+  588  ls -l
+  589  cd Documents/
+  590  ls -l
+  591  cd LX2_walter/
+  592  ls -l
+  593  exit
+  594  pt-get purge virtualbox*
+  595  apt-get purge virtualbox*
+  596  apt-get remove virtualbox-\*
+  597  ls -l
+  598  cd Downloads/
+  599  ls -l
+  600  cd
+  601  exit
+  602  ls -l
+  603  cd Documents/
+  604  ls -l
+  605  mkdir scriptclase
+  606  cd scriptclase/
+  607  touch ejemplo1.sh
+  608  vim ejemplo1.sh 
+  609  touch archivo1.txt
+  610  chmod +x ejemplo1.sh 
+  611  ./ejemplo1.sh 
+  612  ls 
+  613  cat if-then.sh.err
+  614  touch ejemplo2.sh
+  615  vim ejemplo2.sh 
+  616  chmod +x ejemplo2.sh 
+  617  ./ejemplo2.sh 
+  618  ls -l
+  619  touch ejemplopag10.sh
+  620  vim ejemplopag10.sh 
+  621  chmod ejemplopag10.sh 
+  622  chmod +x ejemplopag10.sh 
+  623  ./ejemplopag10.sh 
+  624  ls -l
+  625  cd ..
+  626  ls -l
+  627  mv scriptclase LX2_walter/
+  628  ls -l
+  629  cd LX2_walter/
+  630  ls -l
+  631  git add scriptclase
+  632  git commit -m "ejemplos estudiados en la clase del sabado 4 de junio"
+  633  git push origin master
+  634  ls -l
+  635  cd
+  636  ls -l
+  637  tree
+  638  cd
+  639  exit
+  640  ls -l
+  641  tree
+  642  ~cd
+  643  cd
+  644  ls -l
+  645  exit
+  646  ls -l
+  647  cd
+  648  ls -l
+  649  mv /home/walter/Documents/scriptclase /home
+  650  ls -l
+  651  cd /home/
+  652  ls -l
+  653  cd
+  654  ls -l
+  655  ls -la
+  656  cd /home
+  657  ls -l
+  658  cd
+  659  ls -l
+  660  cd LX2_1p_walter/
+  661  cd
+  662  cd /home/
+  663  ls -l
+  664  mv scriptclase ./
+  665  cd
+  666  ls -l
+  667  cd LX2_1p_walter/
+  668  mv /home/scriptclase ~/LX2_1p_walter
+  669  ls -l
+  670  git add scriptclase 
+  671  git commit -m "ejemplos de scripts, clase 4 junio"
+  672  git push origin master
+  673  ls -l
+  674  cd History/
+  675  ls -l
+  676  History | tail -50 >> Hist4junio.txt 
+  677  history | tail -50 >> Hist4junio.txt 
+  678  ls -l
+  679  git add Hist4junio.txt 
+  680  git commit -m "history de los ejemplos de scripts realizados el sabado 4 de junio"
+  681  git push origin master
+  682  history | tail -100 >> Hist4junio.txt 
+  683  git add Hist4junio.txt 
+  684  git commit -m "history de los ejemplos de scripts realizados el sabado 4 de junio"
+  685  git push origin master
+  686  cd
+  687  ls -l
+  688  cd LX2_1p_walter/
+  689  ls -l
+  690  mkdir Datos
+  691  mkdir error1.log
+  692  mkdir hojasDatos
+  693  cd hojasDatos/
+  694  mkdir archivos_csv
+  695  cd
+  696  cd LX2_1p_walter/
+  697  touch problema1.sh
+  698  mv History Datos
+  699  mv script Datos/
+  700  mv scriptclase Datos/
+  701  mv xls2csv Datos/
+  702  ls -l
+  703  tree
+  704  git add .
+  705  git commit -m "actualizacion del arbol"
+  706  git push origin master
+  707  tree
+  708  git add error1.log
+  709  git commit -m "3 actualizacion del arbol"
+  710  git commit -m "2 actualizacion del arbol"
+  711  git push origin master
+  712  git add hojasDatos
+  713  git commit -m "2 actualizacion del arbol"
+  714  git push origin master
+  715  tree
+  716  tree >> tree.txt
+  717  ls -l
+  718  mv tree.txt Datos/
+  719  cd Datos/
+  720  ls -l
+  721  cd ..
+  722  git add Datos
+  723  git commit -m "actualizacion de Datos, figura del arbol"
+  724  git push origin master
+  725  tree
+  726  mv hojasDatos hojasDatos1
+  727  git add hojasDatos1
+  728  git commit -m "agregue hojasDatos1"
+  729  git push origin master
+  730  ls -l
+  731  git status
+  732  mv hojasDatos hojasDatos1.md
+  733  mv hojasDatos1 hojasDatos1.md
+  734  git add hojasDatos1.md
+  735  git commit -m "nuevo update"
+  736  git push origin master
+  737  tree
+  738  rm -r hojasDatos1.md
+  739  git add .
+  740  git commit -m "1 nuevo update"
+  741  git push origin master
+  742  tree
+  743  rm -r error1.log
+  744  exit
+  745  ls -l
+  746  cd Documents/
+  747  ls -l
+  748  cd
+  749  ls -l
+  750  cd LX2_1p_walter/
+  751  ls -l
+  752  exit
+  753  ls -l
+  754  cd Documents/
+  755  ls -l
+  756  cd
+  757  ls -l
+  758  cd LX2_1p_walter/
+  759  ls -l
+  760  tree
+  761  mkdir error1.log
+  762  mkdir hojasdatos
+  763  tree
+  764  cd hojasdatos
+  765  mkdir archivos_csv
+  766  cd ..
+  767  cd Datos
+  768  cd scriptclase/
+  769  touch var2.sh
+  770  vim var2.sh 
+  771  chmod +x var2.sh 
+  772  ./var2.sh 
+  773  touch case.sh
+  774  vim case.sh 
+  775  chmod +x case.sh 
+  776  ./case.sh 
+  777  ./case.sh
+  778  touch funciones.sh
+  779  vim funciones.sh 
+  780  chmod +x funciones.sh 
+  781  ./funciones.sh 
+  782  tree
+  783  cat ejemplo1.sh
+  784  mv ejemplo1.sh ifejemplo.sh
+  785  tree
+  786  cd ..
+  787  tree
+  788  rm -r tree.txt 
+  789  tree
+  790  cd ..
+  791  tree
+  792  git add .
+  793  git commit -m "actualizacion"
+  794  git push origin master
+  795  tree
+  796  git add hojasdatos
+  797  git commit -m "agrego otro archivo"
+  798  git push origin master
+  799  hojasdatos/archivos_csv/
+  800  hojasdatos/archivos_csv
+  801  hojasdatos/
+  802  hojasdatos
+  803  cd hojasdatos/
+  804  cd archivos_csv/
+  805  touch nuevo.sh
+  806  vim nuevo.sh 
+  807  cd ...
+  808  cd .
+  809  cd ..
+  810  git add hojasdatos
+  811  git commit -m "agrego hojasdatos"
+  812  git push origin master
+  813  ls -l
+  814  cd hojasdatos/
+  815  ls -l
+  816  cd archivos_csv/
+  817  ls -l
+  818  rm -r nuevo.sh 
+  819  cd ..
+  820  git add hojasdatos
+  821  git commit -m "agrego hojasdatos"
+  822  git push origin master
+  823  cd
+  824  ls -l
+  825  touch ansi.txt
+  826  vim ansi.txt 
+  827  poweroff
+  828  apt-get update
+  829  ls cpu
+  830  lscpu
+  831  ls -l
+  832  cd Documents/
+  833  ls -l
+  834  cd
+  835  ls -l
+  836  cd LX2_1p_walter/
+  837  ls -l
+  838  cd Datos/
+  839  ls -l
+  840  cd xls2csv/
+  841  ls -l
+  842  cd
+  843  ls -l
+  844  cd test10/
+  845  ls -l
+  846  cd
+  847  ls -l
+  848  sudo apt-get install csv
+  849  apt-get install catdoc
+  850  tree
+  851  mkdir problema1
+  852  cd problema1/
+  853  mkdir files_csv
+  854  cd
+  855  ls -l
+  856  tree
+  857  ls -l
+  858  tree
+  859  exit
+  860  ls -l
+  861  cd
+  862  ls -l
+  863  mv /home/walter/datos1_csv.csv problema1
+  864  cd problema1/
+  865  ls -l
+  866  cd
+  867  mv /home/walter/datos2_csv.csv problema1/files_csv/
+  868  mv /home/walter/datos3_csv.csv problema1/files_csv/
+  869  mv /home/walter/ {datos4_csv.csv, datos5_csv.csv} problema1/files_csv/
+  870  mv /home/walter/datos4_csv.csv problema1/files_csv/
+  871  mv /home/walter/datos5_csv.csv problema1/files_csv/
+  872  ls -l
+  873  cd problema1/
+  874  ls -l
+  875  mv datos1_csv.csv files_csv/
+  876  cd files_csv/
+  877  ls -l
+  878  cd
+  879  ls -l
+  880  cd problema1/
+  881  ls -l
+  882  cd
+  883  mv problema1/files_csv/walter ~
+  884  ls -l
+  885  cd walter/
+  886  ls -l
+  887  tree
+  888  cd
+  889  ls -l
+  890  mv walter /home/
+  891  ls -l
+  892  mv /home/walter/datos4_csv.csv problema1/files_csv/
+  893  mv /home/walter/datos5_csv.csv problema1/files_csv/
+  894  cd problema1/files_csv/
+  895  ls -l
+  896  cd
+  897  mv problema1 LX2_1p_walter/
+  898  cd LX2_1p_walter/
+  899  ls -l
+  900  cd problema1
+  901  ls -l
+  902  cd files_csv/
+  903  ls -l
+  904  vim datos1_csv.csv 
+  905  ls -l
+  906  cd ..
+  907  git add .
+  908  git commit -m "agregando cvs files"
+  909  git push origin master
+  910  cd problema1/files_csv/
+  911  vim datos1_csv.csv 
+  912  cd ..
+  913  touch problema1.sh
+  914  vim problema1.sh 
+  915  tree
+  916  cd ..
+  917  tree
+  918  cd problema1
+  919  vim problema1.sh 
+  920  ls -l
+  921  vim problema1.sh 
+  922  cd ..
+  923  tree
+  924  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos1.xls ~/LX2_1p_walter/hojasdatos/
+  925  cd hojasdatos/
+  926  ls -l
+  927  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos2.xls ~/LX2_1p_walter/hojasdatos/
+  928  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos3.xls ~/LX2_1p_walter/hojasdatos/
+  929  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos4.xls ~/LX2_1p_walter/hojasdatos/
+  930  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos5.xls ~/LX2_1p_walter/hojasdatos/
+  931  ls -l
+  932  tree
+  933  cd ..
+  934  git add .
+  935  git commit -m "creando script para convertir files"
+  936  git push origin master
+  937  cd problema1
+  938  ls -l
+  939  chmod 777 problema1.sh 
+  940  cd files_csv/
+  941  ls -l
+  942  vim datos2_csv.csv 
+  943  cd ..
+  944  ls -l
+  945  cd hojasdatos/
+  946  ls -l
+  947  vim datos1.xls 
+  948  cd ..
+  949  file hojasdatos/datos1.xls 
+  950  file problema1/files_csv/datos1_csv.csv 
+  951  ls -l
+  952  cd Datos/
+  953  ls -l
+  954  cd History/
+  955  ls -l
+  956  history >> Hist10junio.txt
+  899  ls -l
+  900  cd problema1
+  901  ls -l
+  902  cd files_csv/
+  903  ls -l
+  904  vim datos1_csv.csv 
+  905  ls -l
+  906  cd ..
+  907  git add .
+  908  git commit -m "agregando cvs files"
+  909  git push origin master
+  910  cd problema1/files_csv/
+  911  vim datos1_csv.csv 
+  912  cd ..
+  913  touch problema1.sh
+  914  vim problema1.sh 
+  915  tree
+  916  cd ..
+  917  tree
+  918  cd problema1
+  919  vim problema1.sh 
+  920  ls -l
+  921  vim problema1.sh 
+  922  cd ..
+  923  tree
+  924  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos1.xls ~/LX2_1p_walter/hojasdatos/
+  925  cd hojasdatos/
+  926  ls -l
+  927  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos2.xls ~/LX2_1p_walter/hojasdatos/
+  928  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos3.xls ~/LX2_1p_walter/hojasdatos/
+  929  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos4.xls ~/LX2_1p_walter/hojasdatos/
+  930  mv /home/walter/Downloads/problemas_proyecto/proyectoFinal/problema1/hojasDatos/datos5.xls ~/LX2_1p_walter/hojasdatos/
+  931  ls -l
+  932  tree
+  933  cd ..
+  934  git add .
+  935  git commit -m "creando script para convertir files"
+  936  git push origin master
+  937  cd problema1
+  938  ls -l
+  939  chmod 777 problema1.sh 
+  940  cd files_csv/
+  941  ls -l
+  942  vim datos2_csv.csv 
+  943  cd ..
+  944  ls -l
+  945  cd hojasdatos/
+  946  ls -l
+  947  vim datos1.xls 
+  948  cd ..
+  949  file hojasdatos/datos1.xls 
+  950  file problema1/files_csv/datos1_csv.csv 
+  951  ls -l
+  952  cd Datos/
+  953  ls -l
+  954  cd History/
+  955  ls -l
+  956  history >> Hist10junio.txt
+  957  ls -l
+  958  history | tail -60 >> Hist10junio.txt
