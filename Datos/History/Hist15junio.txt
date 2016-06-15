@@ -1,0 +1,60 @@
+ 1308  ls -l
+ 1309  show fig1.png 
+ 1310  cat fig1.png 
+ 1311  cat fig2.png 
+ 1312  cat fig3.png 
+ 1313  clear
+ 1314  ls -l
+ 1315  cat grafica2.gnu 
+ 1316  cat fig2.png 
+ 1317  rm -r fig*
+ 1318  ls -l
+ 1319  rm -r grafica*
+ 1320  ls -l
+ 1321  rm -r otra3.png 
+ 1322  cd ..
+ 1323  vim separacol5.sh 
+ 1324  ./separacol5.sh 
+ 1325  cd plot/
+ 1326  ls -l
+ 1327  cd ..
+ 1328  vim separacol5.sh 
+ 1329  cd plot/
+ 1330  ls -l
+ 1331  rm -r grafica*
+ 1332  cd ..
+ 1333  ./separacol5.sh 
+ 1334  cd plot/
+ 1335  ls -l
+ 1336  rm -r grafica*
+ 1337  cd ..
+ 1338  vim separacol5.sh 
+ 1339  ./separacol5.sh 
+ 1340  cd plot/
+ 1341  ls -l
+ 1342  cat infograficar1.gnu 
+ 1343  cat infograficar2.gnu 
+ 1344  cat infograficar5.gnu 
+ 1345  clear
+ 1346  ls -l
+ 1347  cat infograficar1.gnu 
+ 1348  ls -l
+ 1349  cat graf1.png 
+ 1350  clear
+ 1351  touch graficador.sh
+ 1352  vim graficador.sh 
+ 1353  chmod 777 graficador.sh 
+ 1354  ./graficador.sh 
+ 1355  ls -l
+ 1356  cat graf2.png 
+ 1357  rm -r graf2.png 
+ 1358  ls -l
+ 1359  cat graf2.png 
+ 1360  clear
+ 1361  ls -l
+ 1362  cd ..
+ 1363  git add .
+ 1364  git commit -m "info de las graficas"
+ 1365  git push origin master
+ 1366  tree
+ 1367  history | tail -60 >> Datos/Hist15junio.txt
