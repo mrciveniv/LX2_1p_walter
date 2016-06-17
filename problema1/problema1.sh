@@ -1,13 +1,13 @@
 #!/bin/bash
 
-Data=/home/problema1/files_csv
-mkdir $DATA/datos_csv
+Data=~/home/LX2_1p_walter/hojasdatos
+mkdir $DATA/LX2_1p_walter/problema1/files_csv
 
-OUT_DATA=$DATA/files_csv
+OUT_DATA=$DATA/LX2-1p_walter/problema1/files_csv
 
 m=0
 
-for i in `find $DATA -name '*.xls' `
+for i in `find $DATA/hojasdatos -name '*.xls' `
 do 
 
 	echo "Procesando archivo $i"
