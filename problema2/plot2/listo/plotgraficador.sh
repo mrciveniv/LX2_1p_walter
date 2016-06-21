@@ -1,6 +1,10 @@
 #!/usr/bin/gnuplot
 
-
+#############################################
+#Este script imprime la grafica final del
+#problema dos, referente al consumo de agua
+#y luz
+###############################################
 set terminal png
 
 set output "plot2.png"
