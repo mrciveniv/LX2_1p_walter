@@ -1,7 +1,8 @@
 #!/bin/bash
 
 ########################################
-#Este pequeño script edita los files excel de la carpeta "nuevo" y los convierte#en csv
+#Este pequeño script edita los files
+# excel de la carpeta "nuevo" y los convierte en csv
 ########################################
 
 #!/bin/bash
