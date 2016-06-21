@@ -1,0 +1,60 @@
+ 1931  mv aislando.sh plotgraficador.sh
+ 1932  ls
+ 1933  vim plotgraficador.sh 
+ 1934  chmod 777 plotgraficador.sh 
+ 1935  ./plotgraficador.sh 
+ 1936  ls 
+ 1937  view plot1.png 
+ 1938  ls -l
+ 1939  rm -r plot1.png 
+ 1940  gnuplot
+ 1941  vim datosgraf.csv 
+ 1942  cd
+ 1943  cd LX2_1p_walter/
+ 1944  cd problema1
+ 1945  ls
+ 1946  cd files_csv/
+ 1947  ls
+ 1948  vim editarcol.sh 
+ 1949  cd plot/
+ 1950  ls
+ 1951  vim graficador.sh 
+ 1952  cd
+ 1953  cd LX2_1p_walter/
+ 1954  clear
+ 1955  tree
+ 1956  git add .
+ 1957  git commit -m "info del segundo problema"
+ 1958  git push origin master
+ 1959  poweroffr
+ 1960  poweroff
+ 1961  cd
+ 1962  cd LX2_1p_walter/
+ 1963  ls -l
+ 1964  cd problema2/
+ 1965  ls -l
+ 1966  ls nuevo/
+ 1967  ls plot2/
+ 1968  cd plot2/
+ 1969  ls
+ 1970  ls listo/
+ 1971  cd ..
+ 1972  git add .
+ 1973  git commit -m "plot del segundo problema"
+ 1974  git push origin master
+ 1975  git add .
+ 1976  git commit -m "plot del segundo problema"
+ 1977  git push origin master
+ 1978  git add .
+ 1979  git push origin master
+ 1980  git add .
+ 1981  git commit -m "plot del segundo problema"
+ 1982  git push origin master
+ 1983  tree
+ 1984  git add .
+ 1985  git commit -m "plot del segundo problema"
+ 1986  git push origin master
+ 1987  cd Datos/
+ 1988  ls
+ 1989  cd History/
+ 1990  history | tail -60 >> Hist20junio.txt
