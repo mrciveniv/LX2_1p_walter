@@ -2,7 +2,8 @@
 
 
 #########################################
-#este script elimina las comas de los documentos csv
+#este pequeño script elimina las comas de los documentos csv de
+#la carpeta "nuevo" y los envia a "plot/listo"
 ########################################
 
 awk -F"," '{ print $1,$2,$3,$4,$5 }' bills01csv.csv | sed '1 s/date/#date/g' | head -100 >> ~/LX2_1p_walter/problema2/plot2/listo/bills01csv.csv

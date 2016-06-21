@@ -1,16 +1,15 @@
 #!/bin/bash
 
 ########################################
-#Este pequeño script edita los files excel y los convirte los files a csv para
-#el segundo problema
+#Este pequeño script edita los files excel de la carpeta "nuevo" y los convirte #los files a csv para
 ########################################
 
 #!/bin/bash
 
-Data=~/home/LX2_1p_walter/problema2
-mkdir $DATA/LX2_1p_walter/problema2/files2_csv
+Data=~/home/LX2_1p_walter/problema2/nuevo
 
-OUT_DATA=$DATA/LX2-1p_walter/problema1/files2_csv
+
+OUT_DATA=$DATA/LX2-1p_walter/problema1/nuevo
 
 m=0
 
